@@ -1,3 +1,4 @@
-ch\sommesi\mdm_project_two\controller\HelloWorld.class
+ch\sommesi\mdm_project_two\controller\ActionRecognition.class
+ch\sommesi\mdm_project_two\controller\ImageController.class
 ch\sommesi\mdm_project_two\controller\CustomErrorController.class
 ch\sommesi\mdm_project_two\MdmProjectTwoApplication.class
