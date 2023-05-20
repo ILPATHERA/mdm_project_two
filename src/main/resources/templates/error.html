@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Error</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-danger">Error</h1>
+            <hr>
+            <p>
+                <strong>Status:</strong> <span th:text="${status}">500</span>
+            </p>
+            <p>
+                <strong>Message:</strong> <span th:text="${error}">Internal Server Error</span>
+            </p>
+            <hr>
+            <a class="btn btn-primary" th:href="@{/model}">Go to Home Page</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
